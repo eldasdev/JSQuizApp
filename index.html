@@ -1,0 +1,109 @@
+<!--
+  All are the best
+
+  ^^ Code Start from Scratch ^^
+  The Quiz by The EldasDEV | Shavkat Toshpulotov
+
+  Github: https://github.com/eldasdev
+  Telegram Channel: https://t.me/eldas
+  Telegram Chat with for more codes and services
+  https://t.me/eldasdev
+  OR
+  https://t.me/developershavkat
+
+  Instagram: https://instagram.com/eldasdev.uz
+  Twitter: https://twitter.com/eldasdev
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Quiz App</title>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+
+  <div class="home-box custom-box">
+    <h3>Ma'lumot: </h3>
+    <p>Ushbu testdagi umumiy savollar soni: <span class="total-question">5</span></p>
+    <button type="button" class="btn start-btn" onclick="startQuiz()">Boshlash</button>
+  </div>
+
+  <div class="quiz-box custom-box hide">
+    <div class="question-number">
+
+    </div>
+    <div class="question-text">
+
+    </div>
+    <div class="question-image">
+      <img src="" />
+    </div>
+    <div class="option-container">
+
+    </div>
+    <div class="next-question-btn">
+      <button class="btn" type="button" onclick="next()">Keyingi</button>
+    </div>
+    <div class="answers-indicator">
+
+    </div>
+  </div>
+
+  <div class="result-box custom-box hide">
+    <h1>
+      Test Natijasi
+    </h1>
+    <table>
+      <tr>
+        <td>Umumiy savollar</td>
+        <td><span class="total-question"></span></td>
+      </tr>
+      <tr>
+        <td>Topshirildi</td>
+        <td><span class="total-attempt"></span></td>
+      </tr>
+      <tr>
+        <td>To'g'ri</td>
+        <td><span class="total-correct"></span></td>
+      </tr>
+      <tr>
+        <td>Xato</td>
+        <td><span class="total-wrong"></span></td>
+      </tr>
+      <tr>
+        <td>Foiz</td>
+        <td><span class="percentage"></span></td>
+      </tr>
+      <tr>
+        <td>Umumiy natijangiz</td>
+        <td><span class="total-score"></span></td>
+      </tr>
+    </table>
+    <button class="btn" type="button" onclick="tryAgainQuiz()">Takrorlash</button>
+    <button class="btn" type="button" onclick="goToHome()">Bosh oyna</button>
+  </div>
+
+  <script src="./assets/js/question.js"></script>
+  <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
+
+<!--
+  All are the best
+
+  ^^ Code The End ^^
+  The Quiz by The EldasDEV | Shavkat Toshpulotov
+
+  Github: https://github.com/eldasdev
+  Telegram Channel: https://t.me/eldas
+  Telegram Chat with for more codes and services
+  https://t.me/eldasdev
+  OR
+  https://t.me/developershavkat
+-->
